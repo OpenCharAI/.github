@@ -1,4 +1,4 @@
-<h1 align="center">Inline Research</h1>
+<h1 align="center">OpenCharAI</h1>
 
 <h3 align="center">Own diffusion engine · train LoRAs locally · runs on your GPU</h3>
 
@@ -20,7 +20,7 @@ getting there.
 
 ## What we build
 
-**[Inline Studio](https://github.com/inlineresearch/Inline-Studio)**, a free and open source canvas
+**[OpenChar Studio](https://github.com/OpenCharAI/OpenChar)**, a free and open source canvas
 for AI filmmaking.
 
 We built it after wasting too many afternoons hunting for the workflow and the assets that made a
@@ -95,7 +95,7 @@ canvas: a dataset node, a caption node, a Train LoRA node, a live loss graph and
 wired together. Press Start and watch it run. Hyperparameters sit in a side panel so the node itself
 stays a status surface, with a step counter, streaming logs and a progress bar.
 
-![The Inline Studio Trainer canvas, with a dataset node, a Train LoRA node running, live logs and a loss curve](https://raw.githubusercontent.com/inlineresearch/Inline-Studio/main/screenshots/lora-trainer.png)
+![The OpenChar Studio Trainer canvas, with a dataset node, a Train LoRA node running, live logs and a loss curve](https://raw.githubusercontent.com/inlineresearch/Inline-Studio/main/screenshots/lora-trainer.png)
 
 Peak VRAM at 512px, rank 16, batch 1, gradient checkpointing on:
 
